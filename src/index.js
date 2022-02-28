@@ -1,1 +1,6 @@
-export { default as TodaysDate } from './date';
+import TodaysDate  from './date';
+
+
+exports = {
+    TodaysDate
+} ;
