@@ -1,6 +1,1 @@
-import TodaysDate  from './date';
-
-
-exports = {
-    TodaysDate
-} ;
+export { default as TodaysDate } from './date';
