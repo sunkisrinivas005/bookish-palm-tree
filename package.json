@@ -4,7 +4,7 @@
   "description": "test components",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel src -d build --copy-files",
+    "build": "babel ./src -d build --copy-files -s inline",
     "prepare": "yarn run build"
   },
   "author": "me",
